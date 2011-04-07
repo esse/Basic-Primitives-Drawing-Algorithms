@@ -1,1 +1,17 @@
-/Users/esse/programistyczne/xcode/flood/README
+Compile instructions:
+gcc -lallegro_primitives -lallegro_main -lallegro -x c -std=c99 main.c -o flood
+
+Requirements:
+C compiler
+Allegro5 library
+
+INSTRUCTION
+LPM - draw line
+PPM - flood fill
+ESC - Quit program
+W - switch to draw lines using Wu Rokne algorithm
+P - switch to draw lines using DDA algorithm
+T - test DDA algorithm (should draw a square)
+Y - test WuRokne algorithm (should draw a square)
+B - benchmark of DDA and WuRokne algorithm (clears screen!)
+C - clear screen
